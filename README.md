@@ -89,3 +89,25 @@ For example:
     Florianopolis, SC, Brazil (47-1001706)
 
 If the codes are present, the names are not really important, as the system will use the code to look up the location. If the code is absent, the system will try to find the location by name, but this is unreliable and can lead to missing or incorrect locations.
+
+
+#### Using the Config Editor (edit_config.py)
+
+It is possible to edit your .json configuration file using a web-based Config Editor. To do so, use this command in your project:
+
+`python edit_config.py sample_project/sample.json`
+
+This will automatically open your web browser, where you can configure:
+* Output file
+* Video title
+* Video description
+* Data file
+* Path for the FFMPEG application
+* Images (that you can add, edit or remove)
+* Text lines (that you can add, edit or remove)
+
+Then you can PREVIEW or SAVE your changes.
+All the modification will then be saved to your .json configuration file.
+
+To stop the Config Editor, on your terminal just hit
+`CTRL + C`
